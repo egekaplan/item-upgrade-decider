@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.event.*;
 import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class App extends JFrame {
@@ -30,9 +31,12 @@ public class App extends JFrame {
                 double number = upgradeMethod.totalCost(itemLevel, unitCost, new Scanner(System.in));
                 DecimalFormat formatter = new DecimalFormat("###,###,###.#########");
                 String formattedNumber = formatter.format(number);
-                JOptionPane.showMessageDialog(null, "Upgrade Chance: " + upgradeChance + "%\nTotal Cost: " + formattedNumber+ "%\nThe amount of expected items: " + expectedAmount);
+                JOptionPane.showMessageDialog(null, "Cumulative Upgrade Chance: " + upgradeChance +"%" + 
+                        "\nExpected Total Cost: " + formattedNumber +
+                        "\nThe amount of expected items: " + expectedAmount);
             }
         });
+        
 
         JPanel panel = new JPanel();
         panel.add(label1);
