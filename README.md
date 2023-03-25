@@ -1,0 +1,2 @@
+# itemUpgradeDecider
+This project allows the user to decide whether to take a risk while playing an online game with an item upgrading. It takes two inputs from the user. The first input is the desired item level (+?) and the second input is the unit price of the item while it is only (+1). The code calculates the expected amount of items to have in order to successfully upgrade using the geometric distribution.
