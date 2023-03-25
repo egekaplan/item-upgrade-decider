@@ -3,5 +3,6 @@ This project allows the user to decide whether to take a risk while playing an o
 
 Used the Swing as the built-in GUI toolkit. 
 ![Screenshot_80](https://user-images.githubusercontent.com/40829087/227714325-6ad39e60-c04c-4500-abb6-76607cd1454b.png)
-![Screenshot_81](https://user-images.githubusercontent.com/40829087/227714328-1d060145-04cb-452c-b09e-479fcc47d09c.png)
 
+
+![Screenshot_82](https://user-images.githubusercontent.com/40829087/227714923-82b581b9-e863-4615-9f9d-11531fb8b403.png)
