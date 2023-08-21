@@ -1,5 +1,5 @@
 # itemUpgradeDecider
-This project allows the user to decide whether to take a risk while playing an online game with item upgrading factor. It takes two inputs from the user. The first input is the desired item level (+?) and the second input is the unit price of the item (can bought via NPC's or just an average market price) while it is only (+1). The code calculates the expected amount of items to have in order to successfully upgrade an item from +1 to (+user input) using the geometric distribution. The "Upgrading Trial Costs" are also calculated in Expected Total Cost (eg. 25K 35K 75K 240K 240K 750K 1M relatively from +2 to +8)
+This application supports in the decision-making process for an online gamer who is playing an MMORPG with item upgrading factor. The user provides two inputs. The desired item level (+?) is the initial input, followed by the item's unit price (+1), which can be obtained from NPCs or simply by purchasing off the market. The geometric distribution is used to determine how many items are necessary to successfully upgrade an item from +1 to (+user input). The "Upgrading Trial Costs" are also computed in terms of Expected Total Cost (for example, 25K, 35K, 75K, 240K, 750K, and 1M, respectively, from +2 to +8).
 
 Used Swing as the built-in GUI toolkit.
 
