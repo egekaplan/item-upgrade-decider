@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MMORPG Item Upgrading Application</title>
 </head>
 <body>
   <h1>MMORPG Item Upgrading Application</h1>
