@@ -48,6 +48,13 @@ public class upgradeMethod {
     
     public static double totalCost(double n, double unitCost, Scanner scanner) {
         // expected total cost(anvil included, scroll cost excluded)
+        // For a specific case item upgrading costs are as following
+        // +1 to 3 -> 60K
+        // +3 to 4 -> 75K
+        // +4 to 5 -> 240K
+        // +5 to 6 -> 240K
+        // +6 to 7 -> 750K
+        // +7 to 8 -> 1M
         double toLevel = n - 1; // input is 7 for upgrading an item from +1 to +8
         double cost = unitCost;
 
