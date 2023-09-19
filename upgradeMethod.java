@@ -8,16 +8,13 @@ public class upgradeMethod {
     static double plusSix = 0.19;
     static double plusSeven = 0.03;
     static double plusEight = 0.01;
-    //
-
+    
     static double cumlChance = 1;
     static double cost = 0;
     static double percent = 100;
     //static String cumlString = "";
 
     public static double calculateUpgradeChance(int num) {
-        
-
         //double toLevel = Double.parseDouble(n)-1; // input is 7 for upgrading an item from +1 to +8
         int toLevel = num-1;
 
@@ -41,13 +38,14 @@ public class upgradeMethod {
             }
         }
         return cumlChance * 100;
-        
     } 
 
+    
     public static double calculateHowManyItems() {
         return Math.ceil(1 / cumlChance);
     }
 
+    
     public static double totalCost(double n, double unitCost, Scanner scanner) {
         // expected total cost(anvil included, scroll cost excluded)
         double toLevel = n - 1; // input is 7 for upgrading an item from +1 to +8
@@ -72,7 +70,7 @@ public class upgradeMethod {
     }
 
 
-    //test case within this method
+    //tests within this method
     /*public static void main(String[] args)  {
 
         Scanner scanner = new Scanner(System.in);
@@ -91,5 +89,4 @@ public class upgradeMethod {
         System.out.println("------------------------------------------------------");
         scanner.close();
     }*/
-
 }
